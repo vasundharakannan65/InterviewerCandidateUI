@@ -1,1 +1,113 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+$base-btn-background-color : blue;
+$base-btn-color : white;
+
+$base-i-color : white;
+
+$navbar-font-color : black;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: #000;
+$navbar-dark-active-color: #222; 
+
+$text-align-type : center;
+
+$font-family : 'Outfit', sans-serif;
+
+.btn {
+    background : $base-btn-background-color;
+    color : $base-btn-color;
+}
+
+i {
+    color: $base-i-color;
+}
+
+i.fas.fa-cart-plus.fa-2x {
+    margin-left: 500px;
+}
+
+#header-searchbox {
+  width: 450px;
+  margin-left: 50%; 
+}
+
+.carousel-inner {
+    height: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $navbar-font-color;
+}
+
+//MEDIA QUERIES
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  nav {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  nav {
+    width: 1024px;
+  }
+  #header-searchbox {
+    width: 250px;
+    margin-left: 50%; 
+  }
+  i.fas.fa-cart-plus.fa-2x {
+    margin-left: 300px;
+  }
+  #navbarColorChange .container {
+    margin-right: 450px;
+  }
+  #carouselExampleControls.carousel.slide {
+    width: 1024px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav {
+    width: 100%;
+  }
+  #header-searchbox {
+    width: 450px;
+    margin-left: 50%; 
+  }
+  i.fas.fa-cart-plus.fa-2x {
+    margin-left: 500px;
+  }
+  #navbarColorChange .container {
+    margin-left: 150px;
+  }
+  #carouselExampleControls.carousel.slide {
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar-nav {
+    width: 100%;
+  }
+  #header-searchbox {
+    width: 450px;
+    margin-left: 50%; 
+  }
+  i.fas.fa-cart-plus.fa-2x {
+    margin-left: 500px;
+  }
+  #navbarColorChange .container {
+    margin-left: 150px;
+  }
+  #carouselExampleControls.carousel.slide {
+    width: 100%;
+  }
+}
+
+
+
